@@ -94,14 +94,13 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 804px;
+    min-height: 100vh;
   }
 
   .u-section-1 .u-group-1 {
     width: 322px;
     min-height: 598px;
     margin-top: 166px;
-    margin-bottom: 40px;
   }
 
   .u-section-1 .u-text-1 {
