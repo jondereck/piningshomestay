@@ -2293,6 +2293,11 @@
   margin: 19px 0 0;
 }
 
+.u-section-9 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
 .u-section-9 .u-list-item-2 {
   background-image: none;
 }
@@ -2365,7 +2370,7 @@
   margin: 19px 0 0;
 }
 
-.u-section-9 .u-btn-1 {
+.u-section-9 .u-btn-2 {
   border-style: none none solid;
   padding: 0;
 }
