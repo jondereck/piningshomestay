@@ -849,8 +849,15 @@
     height: 479px;
   }
 
+  .u-section-4 .u-layout-cell-3 {
+    min-height: 812px;
+  }
+
   .u-section-4 .u-image-2 {
     height: 417px;
+    width: 270px;
+    margin-right: 50px;
+    margin-left: 0;
   }
 } .u-section-5 {
   background-image: none;
