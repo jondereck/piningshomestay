@@ -1902,13 +1902,15 @@
 }
 
 .u-section-10 .u-list-1 {
-  width: 1140px;
+  width: 850px;
   margin: -333px auto 50px;
 }
 
 .u-section-10 .u-repeater-1 {
-  grid-template-columns: calc(25% - 15.75px) calc(25% - 15.75px) calc(25% - 15.75px) calc(25% - 15.75px);
+  grid-template-columns: calc(33.3333% - 14px) calc(33.3333% - 14px) calc(33.3333% - 14px);
+  min-height: 283px;
   grid-gap: 21px 21px;
+  grid-auto-columns: calc(33.3333% - 14px);
 }
 
 .u-section-10 .u-list-item-1 {
@@ -1960,8 +1962,18 @@
   margin: 22px 0 0;
 }
 
+.u-section-10 .u-btn-2 {
+  background-image: none;
+  padding: 0;
+}
+
 .u-section-10 .u-text-5 {
   margin: 19px 0 0;
+}
+
+.u-section-10 .u-btn-3 {
+  background-image: none;
+  padding: 0;
 }
 
 .u-section-10 .u-list-item-3 {
@@ -1993,12 +2005,9 @@
     width: 940px;
   }
 
-  .u-section-10 .u-list-1 {
-    width: 940px;
-  }
-
   .u-section-10 .u-repeater-1 {
-    grid-template-columns: repeat(4, calc(25% - 15.75px));
+    grid-template-columns: repeat(3, calc(33.333333333333336% - 14px));
+    grid-auto-columns: calc(33.333333333333336% - 14px);
   }
 }
 
@@ -2017,6 +2026,8 @@
 
   .u-section-10 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 10.5px));
+    min-height: 719px;
+    grid-auto-columns: calc(50% - 10.5px);
   }
 }
 
@@ -2035,6 +2046,7 @@
 
   .u-section-10 .u-repeater-1 {
     grid-template-columns: 100%;
+    grid-auto-columns: calc(100% - 0px);
   }
 
   .u-section-10 .u-container-layout-2 {
@@ -2055,7 +2067,7 @@
 
 @media (max-width: 575px) {
    .u-section-10 {
-    min-height: 1452px;
+    min-height: 1749px;
   }
 
   .u-section-10 .u-group-1 {
@@ -2074,37 +2086,21 @@
   .u-section-10 .u-list-1 {
     width: 340px;
     margin-top: -431px;
-    margin-bottom: 31px;
   }
 
   .u-section-10 .u-repeater-1 {
-    min-height: 815px;
+    grid-auto-columns: 100%;
   }
 
   .u-section-10 .u-icon-1 {
     margin-top: 25px;
   }
 
-  .u-section-10 .u-text-3 {
-    width: auto;
-    margin-top: 21px;
-  }
-
   .u-section-10 .u-icon-2 {
     margin-top: 25px;
   }
 
-  .u-section-10 .u-text-5 {
-    width: auto;
-    margin-top: 21px;
-  }
-
   .u-section-10 .u-icon-3 {
     margin-top: 25px;
-  }
-
-  .u-section-10 .u-text-7 {
-    width: auto;
-    margin-top: 21px;
   }
 }
