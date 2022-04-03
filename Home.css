@@ -1357,7 +1357,7 @@
 }
 
 .u-section-6 .u-layout-cell-2 {
-  min-height: 400px;
+  min-height: 554px;
 }
 
 .u-section-6 .u-container-layout-2 {
@@ -1368,7 +1368,7 @@
   width: 513px;
   height: 405px;
   grid-gap: 10px 10px;
-  margin: 0 auto -5px;
+  margin: 0 auto;
 }
 
 .u-section-6 .u-carousel-indicators-1 {
@@ -1473,7 +1473,7 @@
   }
 
   .u-section-6 .u-layout-cell-2 {
-    min-height: 330px;
+    min-height: 457px;
   }
 
   .u-section-6 .u-gallery-1 {
@@ -1542,7 +1542,6 @@
 
   .u-section-6 .u-gallery-1 {
     margin-top: -50px;
-    margin-bottom: 0;
     margin-right: initial;
     margin-left: initial;
     width: auto;
