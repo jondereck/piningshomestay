@@ -1600,7 +1600,6 @@
 
 .u-section-7 .u-btn-1 {
   background-image: none;
-  font-weight: normal;
 }
 
 .u-section-7 .u-layout-cell-3 {
@@ -1823,12 +1822,12 @@
 
   .u-section-7 .u-text-6 {
     width: 330px;
+    margin-top: 17px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .u-section-7 .u-btn-1 {
-    font-weight: 700;
     padding: 0;
   }
 
